@@ -6,4 +6,5 @@ Phase #1
   1:D - Assure that there are at least three external links
   
   Note:
+  write what I learn from the assignment
   Submit the link to moodle
