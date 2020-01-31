@@ -1,0 +1,77 @@
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+div p {/*combination: descendant selectors  */
+  background-color: yellow;
+}
+p::first-letter {/*Psuedo element first letter will make the first letter Cap*/
+  color: #ff0000;
+  font-size: xx-large;
+}
+.center {
+  text-align: center;
+  color: red;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+#firstname {
+  background-color: green;
+}
+
+.sidenav {
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #FFFFF;
+  display: block;
+}
+
+.sidenav a:hover {/*Psuedo class change color when hover*/
+  color: pink;
+}
+
+.sidenav a:active {
+  color: red;
+}
+
+c {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+.box {
+  
+  color: brown;
+  padding: 25px;
+  text-align: center;
+}
+
+.box:hover c{
+	display: block;
+}
+
+.main {
+  margin-left: 180px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
