@@ -65,7 +65,7 @@ c {
 }
 
 .main {
-  margin-left: 180px; /* Same width as the sidebar + left position in px */
+  margin-left: 480px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
