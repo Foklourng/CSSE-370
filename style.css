@@ -61,7 +61,7 @@ c {
   padding: 20px;
 }
 .box {
-  flex:30%;
+  flex:20%;
   color: brown;
   padding: 25px;
   text-align: center;
@@ -72,7 +72,7 @@ c {
 }
 
 .main {
-	flex: 30%;
+	flex: 40%;
   
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
