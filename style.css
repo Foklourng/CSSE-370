@@ -20,8 +20,17 @@ h1 {
 #firstname {
   background-color: green;
 }
-
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
 .sidenav {
+	flex:30%;
+	
   width: 170px;
   position: fixed;
   z-index: 1;
@@ -65,7 +74,8 @@ c {
 }
 
 .main {
-  margin-left: 480px; /* Same width as the sidebar + left position in px */
+	flex: 70%;
+  margin-left: 180px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
@@ -74,4 +84,8 @@ c {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+@media (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
 </style>
