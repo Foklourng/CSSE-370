@@ -5,7 +5,7 @@ body {
 div p {/*combination: descendant selectors  */
   background-color: yellow;
 }
-p::first-letter {/*Psuedo element first letter will make the first letter Cap*/
+b::first-letter {/*Psuedo element first letter will make the first letter Cap*/
   color: #ff0000;
   font-size: xx-large;
 }
