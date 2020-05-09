@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <title>CSSE-370</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel ="stylesheet" type="text/css" href ="style.css"> 
@@ -23,8 +24,12 @@
 	  <p id="firstname">Id selector.</p>
 	  <p class = "center">Example of Class selector</p>
 	  <button onclick="myFunction()">Print Out</button> 
+
 	  <b class ="center" id= "demo"></b>
 	  <b id="focusArea" onmousemove="getPos(event)" onmouseout="stopTracking()" >Hover here</b>
+	  
+	  <p id="d"></p>
+	  <p id="button_container"></p>
 	  <p id="displayArea"></p>
 	  </div> 
 	  <div class = "box">Mouse Over Me
@@ -33,4 +38,8 @@
 	  </div>
 </div>
 </body>
+
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="date.js"></script>
 </html> 
