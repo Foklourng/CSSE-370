@@ -56,7 +56,7 @@ Phase #1
       7:A - Check if all risks are addressed in the API website through OWASP.
       
   Note:
-  My API website 
+  My API website does not contains any additional risks beside the server risk alerts. 
   
   Phase #8
       Test cases:
@@ -65,5 +65,6 @@ Phase #1
       8:C - Implement the JavaScript with react component into the project
       8:D - Connect the react component to the project logically
   Note: 
+  I learned how to implement react with my html file. I found react pretty useful in many situation even it requires a lot of programming knowledge. 
   
   
