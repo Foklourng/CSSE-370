@@ -14,6 +14,7 @@ Phase #1
     2:B - Add effects to the website: Sidebar, Display Focus, change on hover
     
   Note:
+  There are many selectors that I can add into the project. I learned how sidebar works and some user intereaction
    
   Phase #3
      Test cases:
@@ -22,6 +23,7 @@ Phase #1
      3:C - Make sure the website contains no side scrolling
      
   Note:
+  Making both html file to work on mobile platform is challenging and require a lot of testings. 
   
   Phase #4
       Test cases:
@@ -29,24 +31,32 @@ Phase #1
       4:B - Create new element when clicked on any other element
       4:C - Applying CSS to the element and delete it on click
       4:D - Check if the text element change when hover based on mouse location
+      
   Note:
+  I get some ideas of including JavaScript file and learned how to apply css to the element for more effects.
   
   Phase #5
       Test cases:
       5:A - Clear all the problems from both pages which defined by ANDI
+      
   Note:
+  My html files contain no problem at all.
   
   Phase #6
       Test cases:
       6:A - Check if the website pulled information from an API
       6:B - Print some choices based on the information from the API
       6:C - Request more information from the API based on user's input
+      
   Note:
+  Working with API is complicated since some APIs are unsecure and can be changed over times.
   
   Phase #7
       Test cases:
-      7:A - Check if all risks are addressed in the API website through OWASP
+      7:A - Check if all risks are addressed in the API website through OWASP.
+      
   Note:
+  My API website 
   
   Phase #8
       Test cases:
