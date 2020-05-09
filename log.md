@@ -8,4 +8,52 @@ Phase #1
   Note:
   I learned the foundation of HTML programming language and the basic structure of connecting two link together then commit it to GitHub.
   
-
+  Phase #2
+    Test cases:
+    2:A - Check if the website contains 10 selectors (Tag name, Id, class, etc.)
+    2:B - Add effects to the website: Sidebar, Display Focus, change on hover
+    
+  Note:
+   
+  Phase #3
+     Test cases:
+     3:A - Make the two html file work with mobile browser
+     3:B - Check if the sidebar is pushed down when scale down
+     3:C - Make sure the website contains no side scrolling
+     
+  Note:
+  
+  Phase #4
+      Test cases:
+      4:A - check if the external JavaScript file is loaded by index.html
+      4:B - Create new element when clicked on any other element
+      4:C - Applying CSS to the element and delete it on click
+      4:D - Check if the text element change when hover based on mouse location
+  Note:
+  
+  Phase #5
+      Test cases:
+      5:A - Clear all the problems from both pages which defined by ANDI
+  Note:
+  
+  Phase #6
+      Test cases:
+      6:A - Check if the website pulled information from an API
+      6:B - Print some choices based on the information from the API
+      6:C - Request more information from the API based on user's input
+  Note:
+  
+  Phase #7
+      Test cases:
+      7:A - Check if all risks are addressed in the API website through OWASP
+  Note:
+  
+  Phase #8
+      Test cases:
+      8:A - Check if webpack is installed
+      8:B - Check if the JavaScript file includes react component
+      8:C - Implement the JavaScript with react component into the project
+      8:D - Connect the react component to the project logically
+  Note: 
+  
+  
